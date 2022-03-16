@@ -1,0 +1,99 @@
+/* COLOR PALETTE */
+:root {
+  --color-primary: #f6c302;
+  --color-secondary: #f73d10;
+  --color-accent: #f1f0ef;
+  --color-text: #1f21a0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(246, 195, 2, 0.7);
+  padding-bottom: 5rem;
+}
+
+#main {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#title {
+  margin-bottom: 1rem;
+}
+
+#description {
+  font-size: 1.125rem;
+  letter-spacing: 1.1px;
+}
+
+#form-section {
+  background-color: var(--color-accent);
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.form-group {
+  margin: 2rem 0;
+  font-size: 1.125rem;
+}
+
+.form-group > label,
+.form-group > p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1f21a0;
+}
+
+.form-group > input,
+.form-group > select {
+  display: block;
+  width: 100%;
+  height: 2.2rem;
+  padding-left: 1rem;
+  border: 1px solid #666;
+  border-radius: 0.25rem;
+}
+
+.radio-item > input[type='radio'],
+.checkbox-item > input[type='checkbox'] {
+  margin: 0.5rem 0;
+}
+
+#comments {
+  display: block;
+  width: 100%;
+  height: 150px;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  background-color: var(--color-secondary);
+  color: var(--color-accent);
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  border: 1px solid var(--color-secondary);
+  border-radius: 0.25rem;
+  transition: all 0.5s;
+}
+
+#submit:hover {
+  color: #333;
+  background-color: transparent;
+  cursor: pointer;
+}

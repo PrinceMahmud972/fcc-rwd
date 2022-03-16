@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container header">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Company Logo" id="header-img">
+            <nav class="navbar" id="nav-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#video-section" class="nav-link">
+                            How it Works
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">
+                            Pricing
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="video-section">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/srvUrASNj0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="newsletter">
+        <h2>Sign-up To Our Weekly Newsletter</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter Your Mail Here"><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <div class="content">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <div class="content">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-battery-full"></i>
+                </div>
+                <div class="content">
+                    <h2>Quality Assurance
+                    </h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container flex">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Tenor Trombone</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="price">$600</h4>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <button>SELECT</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>BASS TROMBONE</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="price">$900</h4>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <button>SELECT</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>VALVE TROMBONE</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="price">$1200</h4>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <button>SELECT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container footer">
+            <ul>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="">Terms</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <p>Copyright 2022 @ Prince Mahmud</p>
+        </div>
+    </footer>
+
+</body>
+</html>
